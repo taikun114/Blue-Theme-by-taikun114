@@ -13,6 +13,7 @@ Blue Theme by taikun114:
 
 ### Fonts ----------------------------------------------------------------------
   # Font Families
+    # For Home Assistant 2025.4.4 or earlier
     primary-font-family: "'Inter','Noto Sans JP'"
     paper-font-common-code_-_font-family: "Cousine"
 
@@ -29,7 +30,13 @@ Blue Theme by taikun114:
     h1_-_font-family: "var(--primary-font-family)"
     app-header-font-family: "var(--primary-font-family)"
 
+    # For Home Assistant 2025.5.0 or later
+    ha-font-family-body: "var(--primary-font-family)"
+    ha-font-family-longform: "var(--primary-font-family)"
+    ha-font-family-code: "Cousine"
+
   # Font Weights
+    # For Home Assistant 2025.4.4 or earlier
     paper-font-body1_-_font-weight: "400"
     paper-font-subhead_-_font-weight: "500"
     paper-font-headline_-_font-weight: "700"
@@ -37,6 +44,14 @@ Blue Theme by taikun114:
     mdc-typography-subtitle1-font-weight: "700"
     mcg-title-font-weight: "400"
     ha-heading-card-title-font-weight: "700"
+
+    # For Home Assistant 2025.5.0 or later
+    ha-font-weight-light: "300"
+    ha-font-weight-normal: "400"
+    ha-font-weight-medium: "500"
+    ha-font-weight-bold: "700"
+
+    md-list-item-label-text-weight: "700"
 
 ### Colors ---------------------------------------------------------------------
     state-switch-on-color: "var(--primary-color)"
