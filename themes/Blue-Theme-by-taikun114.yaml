@@ -1,10 +1,10 @@
 Blue Theme by taikun114:
 
-# v1.0.1
+# v1.0.3
 
-# To use the fonts specified in this theme, 
+# To use the fonts specified in this theme,
 # you need to add a resource from the Dashboard Settings.
-# See Readme for more information. 
+# See Readme for more information.
 
 ### Design ---------------------------------------------------------------------
     ha-card-box-shadow: none
@@ -54,6 +54,21 @@ Blue Theme by taikun114:
     md-list-item-label-text-weight: "700"
 
 ### Colors ---------------------------------------------------------------------
+    ha-color-fill-primary-loud-resting: "var(--primary-color)"
+    ha-color-fill-primary-loud-active: "var(--primary-color)"
+    ha-color-fill-primary-loud-hover: "var(--primary-color-hover)"
+
+    ha-color-on-primary-normal: "var(--primary-color)"
+    ha-color-on-primary-quiet: "var(--primary-color-quiet)"
+
+    ha-color-fill-disabled-normal-resting: "var(--fill-disabled-normal)"
+    ha-color-fill-disabled-quiet-resting: "var(--fill-disabled-quiet)"
+    ha-color-fill-disabled-loud-resting: "var(--fill-disabled-loud)"
+
+    ha-color-on-disabled-normal: "var(--state-inactive-color)"
+    ha-color-on-disabled-quiet: "var(--disabled-quiet)"
+    ha-color-on-disabled-loud: "var(--disabled-loud)"
+
     state-switch-on-color: "var(--primary-color)"
     state-icon-color: "var(--primary-color)"
     state-active-color: "var(--primary-color)"
@@ -85,10 +100,17 @@ Blue Theme by taikun114:
 
 ### Settings for Appearance Mode -----------------------------------------------
     modes:
-        light: 
+        light:
          ## Colors -------------------------------------------------------------
             primary-color: "#4F93FF"
+            primary-color-quiet: "#69b0ff"
+            primary-color-hover: "#4178d2"
             accent-color: "#FF8BC9"
+            fill-disabled-normal: "#8d9caf"
+            fill-disabled-quiet: "#d0dceb"
+            fill-disabled-loud: "#a2b3c9"
+            disabled-quiet: "#b7cbe3"
+            disabled-loud: "#e2efff"
 
           # Texts
             primary-text-color: "#000000"
@@ -111,10 +133,17 @@ Blue Theme by taikun114:
           # Mushroom Card Specific
             mush-rgb-disabled: "177, 196, 219"
 
-        dark: 
+        dark:
          ## Colors -------------------------------------------------------------
             primary-color: "#3866FF"
+            primary-color-quiet: "#6198ff"
+            primary-color-hover: "#2a50c8"
             accent-color: "#95297C"
+            fill-disabled-normal: "#3e476b"
+            fill-disabled-quiet: "#6c7ea2"
+            fill-disabled-loud: "#4f5b89"
+            disabled-quiet: "#5b679b"
+            disabled-loud: "#7a8cb4"
 
           # Texts
             primary-text-color: "#D5D5D5"
