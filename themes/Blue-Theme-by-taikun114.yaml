@@ -1,6 +1,6 @@
 Blue Theme by taikun114:
 
-# v1.0.3
+# v1.0.4
 
 # To use the fonts specified in this theme,
 # you need to add a resource from the Dashboard Settings.
@@ -54,6 +54,14 @@ Blue Theme by taikun114:
     md-list-item-label-text-weight: "700"
 
 ### Colors ---------------------------------------------------------------------
+    ha-color-fill-primary-normal-resting: "var(--primary-color-fill-normal)"
+    ha-color-fill-primary-normal-active: "var(--primary-color-fill-normal)"
+    ha-color-fill-primary-normal-hover: "var(--primary-color-fill-normal-hover)"
+
+    ha-color-fill-primary-quiet-resting: "var(--primary-color-fill-quiet)"
+    ha-color-fill-primary-quiet-active: "var(--primary-color-fill-quiet)"
+    ha-color-fill-primary-quiet-hover: "var(--primary-color-fill-quiet-hover)"
+
     ha-color-fill-primary-loud-resting: "var(--primary-color)"
     ha-color-fill-primary-loud-active: "var(--primary-color)"
     ha-color-fill-primary-loud-hover: "var(--primary-color-hover)"
@@ -105,6 +113,10 @@ Blue Theme by taikun114:
             primary-color: "#4F93FF"
             primary-color-quiet: "#69b0ff"
             primary-color-hover: "#4178d2"
+            primary-color-fill-normal: "#b1d4ff"
+            primary-color-fill-normal-hover: "#c7e0ff"
+            primary-color-fill-quiet: "#b4ceff"
+            primary-color-fill-quiet-hover: "#d1e6ff"
             accent-color: "#FF8BC9"
             fill-disabled-normal: "#8d9caf"
             fill-disabled-quiet: "#d0dceb"
@@ -138,6 +150,10 @@ Blue Theme by taikun114:
             primary-color: "#3866FF"
             primary-color-quiet: "#6198ff"
             primary-color-hover: "#2a50c8"
+            primary-color-fill-normal: "#122461"
+            primary-color-fill-normal-hover: "#172f7f"
+            primary-color-fill-quiet: "#132142"
+            primary-color-fill-quiet-hover: "#172a58"
             accent-color: "#95297C"
             fill-disabled-normal: "#3e476b"
             fill-disabled-quiet: "#6c7ea2"
