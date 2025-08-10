@@ -1,6 +1,6 @@
 Blue Theme by taikun114:
 
-# v1.0.4
+# v1.0.5
 
 # To use the fonts specified in this theme,
 # you need to add a resource from the Dashboard Settings.
@@ -113,8 +113,8 @@ Blue Theme by taikun114:
             primary-color: "#4F93FF"
             primary-color-quiet: "#69b0ff"
             primary-color-hover: "#4178d2"
-            primary-color-fill-normal: "#b1d4ff"
-            primary-color-fill-normal-hover: "#c7e0ff"
+            primary-color-fill-normal: "#cfe4ff"
+            primary-color-fill-normal-hover: "#c2ddff"
             primary-color-fill-quiet: "#b4ceff"
             primary-color-fill-quiet-hover: "#d1e6ff"
             accent-color: "#FF8BC9"
